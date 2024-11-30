@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUD de Usuários</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Gestão de Usuários</h1>
+    </header>
+
+    <!-- Login Section -->
+    <section id="login" class="card">
+      <h2>Login</h2>
+      <form id="login-form">
+        <div class="form-group">
+          <label for="login-email">Email:</label>
+          <input type="email" id="login-email" placeholder="Digite seu email" required>
+        </div>
+        <div class="form-group">
+          <label for="login-password">Senha:</label>
+          <input type="password" id="login-password" placeholder="Digite sua senha" required>
+        </div>
+        <button type="submit" class="btn">Entrar</button>
+      </form>
+    </section>
+
+    <!-- User Management Section -->
+    <section id="user-management" class="card" style="display: none;">
+      <h2>Gestão de Usuários</h2>
+      <form id="user-form">
+        <div class="form-group">
+          <label for="name">Nome:</label>
+          <input type="text" id="name" placeholder="Digite o nome" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="Digite o email" required>
+        </div>
+        <div class="form-group">
+          <label for="type">Tipo:</label>
+          <select id="type" required>
+            <option value="regular">Regular</option>
+            <option value="admin">Admin</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="password">Senha:</label>
+          <input type="password" id="password" placeholder="Digite a senha" required>
+        </div>
+        <button type="submit" class="btn">Adicionar Usuário</button>
+      </form>
+
+      <h3>Lista de Usuários</h3>
+      <table id="user-table">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Tipo</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
