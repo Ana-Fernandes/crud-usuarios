@@ -167,7 +167,7 @@ cd crud-usuarios
 
 Backend
 Início: 10:00 AM
-Término: 10:40 PM
+Término: 10:40 AM
 Atividades:
 Configurar o ambiente Node.js.
 Criar as rotas da API REST.
@@ -175,8 +175,8 @@ Implementar autenticação JWT.
 Desenvolver o CRUD de usuários.
 Testar rotas no Postman.
 Frontend
-Início: 10:40 PM
-Término: 11:45 PM
+Início: 10:40 AM
+Término: 11:45 AM
 Atividades:
 Estruturar a interface em HTML e CSS.
 Implementar o JavaScript para interagir com a API.
