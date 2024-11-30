@@ -184,3 +184,7 @@ Adicionar estilos responsivos com tons azul-marinho.
 Testar a integração com o backend.
 
 Com isso, o projeto está pronto para ser testado! Caso tenha dúvidas ou precise de suporte, entre em contato. 
+
+https://github.com/user-attachments/assets/07c6765d-978b-4450-94d7-5761cab0760e
+
+
